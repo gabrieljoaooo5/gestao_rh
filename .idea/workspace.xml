@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="342ea3e1-4767-4be6-a41f-af16cfec6300" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/core/templates/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/core/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/funcionario/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/documento/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/documento/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/empresa/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/empresa/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/funcionario/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/funcionario/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/registro_hora_extra/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/registro_hora_extra/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/funcionario/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/funcionario/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao_rh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gestao_rh/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestao_rh/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gestao_rh/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20luEDh3aUWDzHsUM2YdsI1HLID" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,10 +45,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\gestao_rh\static\bootstrap" />
+      <recent name="D:\GitHub\gestao_rh\apps\core\templates\core" />
       <recent name="D:\GitHub\gestao_rh\apps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.migrate">
+  <component name="RunManager" selected="Python.runserver">
     <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
       <module name="gestao_rh" />
       <option name="INTERPRETER_OPTIONS" value="" />
