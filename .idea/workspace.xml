@@ -39,7 +39,7 @@
       <recent name="D:\GitHub\gestao_rh\apps" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.runserver">
+  <component name="RunManager" selected="Python.migrate">
     <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
       <module name="gestao_rh" />
       <option name="INTERPRETER_OPTIONS" value="" />
