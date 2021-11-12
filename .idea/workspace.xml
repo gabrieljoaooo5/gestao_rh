@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="342ea3e1-4767-4be6-a41f-af16cfec6300" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/core/templates/core/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/core/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/funcionario/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/funcionario/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/funcionario/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/templates/core/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gestao_rh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gestao_rh/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gestao_rh/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gestao_rh/urls.py" afterDir="false" />
     </list>
@@ -23,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,6 +38,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
