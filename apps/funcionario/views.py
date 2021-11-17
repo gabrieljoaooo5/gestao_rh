@@ -3,7 +3,8 @@ from django.http import HttpResponse
 from django.urls import reverse_lazy
 from django.views.generic import ListView, UpdateView, DeleteView, CreateView
 from .models import Funcionario
-
+from ..documento.models import Documento
+from ..registro_hora_extra.models import RegistroHoraExtra
 
 
 class FuncionariosList(ListView):
@@ -18,6 +19,12 @@ class FuncionarioEdit(UpdateView):
     model = Funcionario
     fields = ['nome', 'departamentos']
 
+    def get_context_data(self, **kwargs):
+        context = super(FuncionarioEdit, self).get_context_data(**kwargs)
+        context.update({'documentos': Documento.objects.filter(pertence__id=self.kwargs['pk']),
+                        'banco_horas': RegistroHoraExtra.objects.filter(funcionario__id=self.kwargs['pk'])})
+        return context
+
 
 class FuncionarioDelete(DeleteView):
     model = Funcionario
@@ -30,8 +37,11 @@ class FuncionarioNovo(CreateView):
 
     def form_valid(self, form):
         funcionario = form.save(commit=False)
-        funcionario.empresa = self.request.user.funcionario.empresa
         username = funcionario.nome.split(' ')[0] + funcionario.nome.split(' ')[1]
-        funcionario.user = User.objects.create(username=username)
+        funcionario.empresa = self.request.user.funcionario.empresa
+        funcionario.user = User.objects.create(
+            username=username,
+        )
         funcionario.save()
+
         return super(FuncionarioNovo, self).form_valid(form)
