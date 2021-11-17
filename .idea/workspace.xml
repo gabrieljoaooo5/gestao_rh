@@ -30,7 +30,6 @@
       <change afterPath="$PROJECT_DIR$/staticfiles/bootstrap/js/bootstrap.js.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/staticfiles/bootstrap/js/bootstrap.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/staticfiles/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/core/templates/core/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/templates/core/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/documento/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/documento/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/documento/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/documento/views.py" afterDir="false" />
