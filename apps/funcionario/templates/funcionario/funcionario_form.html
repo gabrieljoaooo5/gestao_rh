@@ -9,10 +9,12 @@
 </form>
 {% if object %}
     <a href="{% url 'create_documento' object.id %}" class="btn btn-success">Adicionar documento</a>
+
+    {% for documento in object.documento_set.all %}
+    <a href="{{ documento.arquivo.url }}">{{ documento.descricao }}</a> </br>
+    {% endfor %}
 {% endif %}
 
 
-{% for documento in object.documento_set.all %}
-<a href="{{ documento.arquivo.url }}">{{ documento.descricao }}</a> </br>
-{% endfor %}
+
 {% endblock %}
